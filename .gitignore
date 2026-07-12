@@ -1,0 +1,13 @@
+# Never commit original game data or generated game images.
+Original/
+work/
+*.gdi
+track*.bin
+track*.raw
+*.iso
+
+# Local/editor files.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

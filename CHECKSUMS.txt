@@ -1,0 +1,5 @@
+tricolore_crise_english_patch_v1.0.0.bps
+SHA-256 64fc2463f498290257429955ca948d88fa6ec7277a5dc5f921aa7fbdbe9a45e9
+
+Required clean source: track03.bin
+SHA-1 5608009f040cbed33e4b29da33fc36e29bc24b62

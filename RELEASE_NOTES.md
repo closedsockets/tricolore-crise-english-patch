@@ -1,31 +1,31 @@
-# Tricolore Crise English Patch v0.9.5-alpha
+# Tricolore Crise English Patch v1.0.0
 
-Second public playtest release of the *Tricolore Crise* English fan
-translation. The headline feature: the first in-disc image translations.
+This is the final functional release of the *Tricolore Crise* English patch.
 
-- NEW: English title menu.
-- NEW: all status and magic screens translated — 3 mage status screens
-  (Jamis, Ranan, Anemea), all 13 familiar class status screens, and 10
-  magic/skill list screens. These are baked-pixel image edits (PAL8 twiddled
-  tile plates re-encoded byte-exact inside TC_WALL.FAR), so they work on real
-  hardware, not only via emulator texture packs.
-- Complete event script: 11,224 / 11,224 unique strings translated across
-  14,995 disc locations, plus major system text and all identified battle UI
-  strings (unchanged from v0.9.0-alpha).
+## Included
 
-## Built with Dreamcast Translation Kit
+- Complete event dialogue: 11,224 unique strings covering 14,995 locations.
+- Major system text (1,175 entries) and all identified battle UI (43 entries).
+- English title-menu, status, familiar-status, magic/skill, Options, and
+  system-message image plates baked directly into the disc patch.
+- Source-verified BPS distribution for clean `track03.bin` SHA-1
+  `5608009f040cbed33e4b29da33fc36e29bc24b62`.
 
-This patch was created with the open-source
-[Dreamcast Translation Kit v0.1.0](https://github.com/closedsockets/dreamcast-translation-kit/releases/tag/v0.1.0).
-The toolkit scans a clean GDI dump into a CSV worklist, supports glossary-led
-AI-assisted translation batches, validates fixed-width replacements, and
-builds BPS patches without distributing game data.
+The final build validates 16,875 non-overlapping replacements. Image edits
+preserve their original allocation and are re-encoded into the game's native
+formats; the patch contains no game data.
 
-## Remaining work
+## Release position
 
-- Options screen art remains Japanese (source located; translation planned).
-- More emulator and hardware playtesting is needed before a 1.0 release.
+v1.0.0 is a completion release, not a claim that every replacement graphic is
+artistically final. The remaining Japanese visual material is non-blocking
+branding, splash, or accessory-notice presentation; the name-entry character
+grids are intentionally retained as input tables. The playable story and
+required navigation/UI coverage are complete.
 
-This download contains patch data only and requires a legally obtained clean
-dump with a `track03.bin` SHA-1 of
-`5608009f040cbed33e4b29da33fc36e29bc24b62`.
+## Verification
+
+- BPS SHA-256: `64fc2463f498290257429955ca948d88fa6ec7277a5dc5f921aa7fbdbe9a45e9`
+- Build validation: 16,875 replacements.
+- Options and all shipped status/magic plates were checked in Flycast; the
+  plate route is in-disc and suitable for hardware use.

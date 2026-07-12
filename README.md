@@ -1,68 +1,39 @@
-# Tricolore Crise English Patch
+# Tricolore Crise English Patch v1.0.0
 
-An unofficial English fan-translation patch for the Sega Dreamcast game
-*Tricolore Crise*.
+An unofficial English fan translation for Sega Dreamcast's *Tricolore Crise*.
+This repository contains patch data and documentation only—never game files,
+BIOS files, or an emulator.
 
-> Built with [Dreamcast Translation Kit v0.1.0](https://github.com/closedsockets/dreamcast-translation-kit/releases/tag/v0.1.0), an open, AI-friendly workflow for scanning Shift-JIS text, translating CSV worklists, validating fixed-width replacements, and building BPS patches.
+## Final release scope
 
-## v0.9.5-alpha status
+- Complete event script: 11,224 unique strings across 14,995 disc locations.
+- 1,175 translated system-text entries and all 43 identified battle-UI entries.
+- In-disc English image UI for the title menu, 26 status/magic plates, Options,
+  and the system-message plates. These edits work on Dreamcast hardware as
+  well as emulators.
+- Fixed-width text, format tokens, line breaks, source hashes, and overlapping
+  replacements are validated during the build. The final validation covered
+  16,875 replacements.
 
-The event script is fully translated, and this release adds the first
-in-disc image translations: the title menu and every status and magic
-screen. It remains an alpha while the options screen art and final visual
-polish are completed.
+The patch is considered functionally complete. Some replacement art favors
+readability and coverage over a polished recreation of the original styling.
+The Japanese name-entry character grids remain intentionally: they are input
+tables, not ordinary interface copy. A few non-blocking title/splash and
+accessory-notice graphics may retain Japanese presentation text.
 
-| Area | Coverage |
-| --- | --- |
-| Event dialogue | 11,224 / 11,224 unique strings translated |
-| Event-script occurrences | 14,995 disc locations covered |
-| System text | 1,175 translated entries |
-| Battle UI | 43 / 43 identified entries translated |
-| UI art | Title menu + 26 status/magic screen plates translated in-disc |
-| Patch build | 16,875 validated replacements |
+## Apply the patch
 
-## Download and apply
-
-Download `tricolore_crise_english_patch_v0.9.5-alpha.bps` from the latest
-release. Apply it with a BPS-compatible patcher to `track03.bin` from a clean,
-legally obtained GDI dump.
-
-Required source SHA-1:
+Download `tricolore_crise_english_patch_v1.0.0.bps` from the release and apply
+it to `track03.bin` from a clean, legally obtained GDI dump. The required
+source SHA-1 is:
 
 `5608009f040cbed33e4b29da33fc36e29bc24b62`
 
-See [PATCHING.md](PATCHING.md) for the complete instructions.
-
-## What is translated
-
-- Complete event/dialogue script, including every matching location on disc.
-- Character names, terminology, choices, counters, and color-coded terms.
-- Major system/menu text and all identified battle UI strings.
-- Title menu art, all 16 status screens (3 mages + 13 familiar classes), and
-  all 10 magic/skill list screens — translated as baked image data, so they
-  work on real hardware as well as emulators.
-
-## Remaining work
-
-- Options screen art (source now located; translation planned).
-- Optional English portrait name tags.
-- Additional emulator and hardware playtesting, plus final text polish.
-
-The Japanese character grids used by name entry are intentionally retained:
-they are input tables rather than ordinary interface text.
-
-## Built with Dreamcast Translation Kit
-
-This project is the first production patch created with the
-[Dreamcast Translation Kit](https://github.com/closedsockets/dreamcast-translation-kit/releases/tag/v0.1.0).
-The toolkit supports CSV-based translation worklists, glossary-led
-AI-assisted batches, duplicate handling, fixed-width validation, BPS patch
-creation, and PVR image workflows. It distributes no game files.
+See [PATCHING.md](PATCHING.md) for the full procedure and
+[RELEASE_NOTES.md](RELEASE_NOTES.md) for the technical release scope.
 
 ## Legal
 
-This repository and its releases contain patch data only. They do not include
-game files, BIOS files, or an emulator. *Tricolore Crise* and all original
-assets are the property of their respective rights holders. This is an
-unofficial, non-commercial fan project; use it only with a legally obtained
-copy of the game.
+*Tricolore Crise* and all original assets belong to their respective rights
+holders. This is an unofficial, non-commercial fan project. Use the patch only
+with a legally obtained copy of the game.

@@ -1,4 +1,4 @@
-# Tricolore Crise English Patch v1.0.0
+# Tricolore Crise English Patch v1.0.1
 
 An unofficial English fan translation for Sega Dreamcast's *Tricolore Crise*.
 This repository contains patch data and documentation only—never game files,
@@ -15,7 +15,9 @@ BIOS files, or an emulator.
   replacements are validated during the build. The final validation covered
   16,875 replacements.
 
-The patch is considered functionally complete. Some replacement art favors
+The patch is considered functionally complete. v1.0.1 corrects the second
+protagonist's spelling to **Lanan**, matching the original game's baked Latin
+status header. Some replacement art favors
 readability and coverage over a polished recreation of the original styling.
 The Japanese name-entry character grids remain intentionally: they are input
 tables, not ordinary interface copy. A few non-blocking title/splash and
@@ -23,7 +25,7 @@ accessory-notice graphics may retain Japanese presentation text.
 
 ## Apply the patch
 
-Download `tricolore_crise_english_patch_v1.0.0.bps` from the release and apply
+Download `tricolore_crise_english_patch_v1.0.1.bps` from the release and apply
 it to `track03.bin` from a clean, legally obtained GDI dump. The required
 source SHA-1 is:
 

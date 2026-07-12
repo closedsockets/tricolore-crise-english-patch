@@ -1,10 +1,10 @@
-# Applying the v1.0.0 patch
+# Applying the v1.0.1 patch
 
 ## You need
 
 - A clean, legally obtained GDI dump of *Tricolore Crise*.
 - A BPS-compatible patcher.
-- `tricolore_crise_english_patch_v1.0.0.bps`.
+- `tricolore_crise_english_patch_v1.0.1.bps`.
 
 ## Steps
 

@@ -6,7 +6,7 @@ Tricolore Crise English Patch
 
 ## Version
 
-v1.0.0 (2026-07-11)
+v1.0.1 (2026-07-11)
 
 ## Platform and category
 
@@ -24,7 +24,9 @@ This unofficial patch translates the complete *Tricolore Crise* event script:
 system-text entries and all 43 identified battle-UI entries. The patch includes
 in-disc English artwork for the title menu, status and magic screens, Options,
 and system-message plates, so the translated interface works on compatible
-Dreamcast hardware as well as emulators.
+Dreamcast hardware as well as emulators. Version 1.0.1 corrects the
+protagonist name to **Lanan**, matching the original game's baked Latin status
+header.
 
 The build validates fixed-width text limits, format tokens, line breaks,
 source hashes, and patch overlap before producing the BPS file. It contains no

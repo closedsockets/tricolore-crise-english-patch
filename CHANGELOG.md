@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.1 — 2026-07-11
+
+- Corrected the second protagonist's English spelling from `Ranan` to
+  `Lanan`, following the original baked Latin status header. Applied across
+  active dialogue, menus, system/battle UI, and release metadata.
+
 ## v1.0.0 — 2026-07-11
 
 - Final functional release.

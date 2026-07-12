@@ -1,6 +1,13 @@
-# Tricolore Crise English Patch v1.0.0
+# Tricolore Crise English Patch v1.0.1
 
-This is the final functional release of the *Tricolore Crise* English patch.
+This is a post-release spelling correction for the final functional release of
+the *Tricolore Crise* English patch.
+
+## v1.0.1 correction
+
+- Replaces `Ranan` with **`Lanan`** everywhere in active dialogue, menus,
+  battle UI, system text, and generated patch metadata. `Lanan` matches the
+  original game's baked Latin name header on her status screen.
 
 ## Included
 
@@ -25,7 +32,7 @@ required navigation/UI coverage are complete.
 
 ## Verification
 
-- BPS SHA-256: `64fc2463f498290257429955ca948d88fa6ec7277a5dc5f921aa7fbdbe9a45e9`
-- Build validation: 16,875 replacements.
+- BPS SHA-256: `58339b4786510685c8a34314fb6d18de5a2200a65d3cc9d41d66bc258d5c0ecf`
+- Build validation: 16,884 replacements.
 - Options and all shipped status/magic plates were checked in Flycast; the
   plate route is in-disc and suitable for hardware use.

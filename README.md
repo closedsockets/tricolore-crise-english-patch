@@ -31,8 +31,12 @@ source SHA-1 is:
 
 `5608009f040cbed33e4b29da33fc36e29bc24b62`
 
-See [PATCHING.md](PATCHING.md) for the full procedure and
-[RELEASE_NOTES.md](RELEASE_NOTES.md) for the technical release scope.
+For a Windows helper that does not require a BPS program, download the JSON
+patch and run `Apply_JSON_Patch.bat`; it verifies both the source and output
+automatically. See [PATCHING.md](PATCHING.md) for that method and the standard
+BPS method.
+
+See [RELEASE_NOTES.md](RELEASE_NOTES.md) for the technical release scope.
 
 ## Legal
 

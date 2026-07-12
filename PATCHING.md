@@ -1,5 +1,22 @@
 # Applying the v1.0.1 patch
 
+## Easiest Windows method — no BPS program required
+
+1. Download `Apply_JSON_Patch.bat`, `apply_json_patch.py`, and
+   `tricolore_crise_english_patch_v1.0.1.json` from the GitHub release. Keep
+   all three files in the same folder.
+2. Double-click `Apply_JSON_Patch.bat`, drag your clean `track03.bin` onto the
+   black window, and press Enter. This requires the normal Windows Python
+   launcher (`py`); install Python from python.org if `py` is not recognized.
+3. The helper verifies the source hash, creates `track03_english_v1.0.1.bin`,
+   and verifies the completed file. Copy that output into a **copy** of your
+   GDI folder and rename it to `track03.bin`.
+
+## BPS method
+
+Use this if you already have a BPS program such as
+[Floating IPS (Flips)](https://github.com/Alcaro/Flips/releases).
+
 ## You need
 
 - A clean, legally obtained GDI dump of *Tricolore Crise*.

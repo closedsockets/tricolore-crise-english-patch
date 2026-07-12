@@ -8,6 +8,8 @@ the *Tricolore Crise* English patch.
 - Replaces `Ranan` with **`Lanan`** everywhere in active dialogue, menus,
   battle UI, system text, and generated patch metadata. `Lanan` matches the
   original game's baked Latin name header on her status screen.
+- Added a JSON patch plus a drag-and-drop Windows helper for players who do
+  not use a BPS application.
 
 ## Included
 

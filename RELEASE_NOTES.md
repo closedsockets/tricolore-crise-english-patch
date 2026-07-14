@@ -22,7 +22,7 @@ functional *Tricolore Crise* English patch.
 - Major system text (1,177 entries) and all identified battle UI (43 entries).
 - English title-menu, status, familiar-status, magic/skill, Options, and
   system-message image plates baked directly into the disc patch.
-- Source-verified BPS and JSON distributions for clean `track03.bin` SHA-1
+- Source-verified BPS distribution for clean `track03.bin` SHA-1
   `5608009f040cbed33e4b29da33fc36e29bc24b62`.
 
 The build validates 17,151 non-overlapping replacements. Image edits preserve
@@ -45,7 +45,5 @@ coverage are complete.
   `1bc0fe1da334be249a9e8c96d346d218dc9e913d`
 - BPS SHA-256:
   `50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8`
-- JSON SHA-256:
-  `5babf40c963de3723aaf68281ec09650a30cd1d6bb56624c1133b2e94b7fb6ff`
 - Options and all shipped status/magic plates use the in-disc route and are
   suitable for emulator and hardware use.

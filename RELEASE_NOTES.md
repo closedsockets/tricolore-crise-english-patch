@@ -1,40 +1,51 @@
-# Tricolore Crise English Patch v1.0.1
+# Tricolore Crise English Patch v1.0.2
 
-This is a post-release spelling correction for the final functional release of
-the *Tricolore Crise* English patch.
+v1.0.2 is a translation-completeness and terminology update to the final
+functional *Tricolore Crise* English patch.
 
-## v1.0.1 correction
+## v1.0.2 changes
 
-- Replaces `Ranan` with **`Lanan`** everywhere in active dialogue, menus,
-  battle UI, system text, and generated patch metadata. `Lanan` matches the
-  original game's baked Latin name header on her status screen.
-- Added a JSON patch plus a drag-and-drop Windows helper for players who do
-  not use a BPS application.
+- Adds 269 previously absent disc replacements representing 163 unique
+  fragments, map labels, choices, and interface strings.
+- Revises 1,197 existing replacements for context, line flow, terminology,
+  and official/reference names.
+- Standardizes key names and places including Aghathia, Anemea Glender, Stum
+  "Burnin'", Kantalra, Hauk Glender, Sa'am, Yerum, Shanna Woods, Azul
+  Highlands, HeatLord's Hill, Juno, Xian, Diadolla, Vasyar, Saro, and
+  Arc-Shar.
+- Expands system-text coverage to 1,177 entries and completes all 32 shipped
+  status/magic plates.
 
 ## Included
 
 - Complete event dialogue: 11,224 unique strings covering 14,995 locations.
-- Major system text (1,175 entries) and all identified battle UI (43 entries).
+- Major system text (1,177 entries) and all identified battle UI (43 entries).
 - English title-menu, status, familiar-status, magic/skill, Options, and
   system-message image plates baked directly into the disc patch.
-- Source-verified BPS distribution for clean `track03.bin` SHA-1
+- Source-verified BPS and JSON distributions for clean `track03.bin` SHA-1
   `5608009f040cbed33e4b29da33fc36e29bc24b62`.
 
-The final build validates 16,875 non-overlapping replacements. Image edits
-preserve their original allocation and are re-encoded into the game's native
-formats; the patch contains no game data.
+The build validates 17,151 non-overlapping replacements. Image edits preserve
+their original allocation and are re-encoded into the game's native formats;
+the patch contains no game image.
 
 ## Release position
 
-v1.0.0 is a completion release, not a claim that every replacement graphic is
-artistically final. The remaining Japanese visual material is non-blocking
-branding, splash, or accessory-notice presentation; the name-entry character
-grids are intentionally retained as input tables. The playable story and
-required navigation/UI coverage are complete.
+This is a functional completion release, not a claim that every replacement
+graphic is an artistically exact recreation. Remaining Japanese visual
+material is non-blocking branding, splash, accessory-notice, portrait-name,
+or input-table presentation. The playable story and required navigation/UI
+coverage are complete.
 
 ## Verification
 
-- BPS SHA-256: `58339b4786510685c8a34314fb6d18de5a2200a65d3cc9d41d66bc258d5c0ecf`
-- Build validation: 16,884 replacements.
-- Options and all shipped status/magic plates were checked in Flycast; the
-  plate route is in-disc and suitable for hardware use.
+- Clean source SHA-1:
+  `5608009f040cbed33e4b29da33fc36e29bc24b62`
+- Patched output SHA-1:
+  `1bc0fe1da334be249a9e8c96d346d218dc9e913d`
+- BPS SHA-256:
+  `50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8`
+- JSON SHA-256:
+  `5babf40c963de3723aaf68281ec09650a30cd1d6bb56624c1133b2e94b7fb6ff`
+- Options and all shipped status/magic plates use the in-disc route and are
+  suitable for emulator and hardware use.

@@ -1,8 +1,13 @@
-tricolore_crise_english_patch_v1.0.1.bps
-SHA-256 58339b4786510685c8a34314fb6d18de5a2200a65d3cc9d41d66bc258d5c0ecf
+Tricolore Crise English Patch v1.0.2
 
-tricolore_crise_english_patch_v1.0.1.json
-SHA-256 e681cbb3f1e6d11bb96997ba26c1ad0806c930204e9d7c9e536f08210f3a6f9e
+tricolore_crise_english_patch_v1.0.2.bps
+SHA-256 50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8
+
+tricolore_crise_english_patch_v1.0.2.json
+SHA-256 5babf40c963de3723aaf68281ec09650a30cd1d6bb56624c1133b2e94b7fb6ff
 
 Required clean source: track03.bin
 SHA-1 5608009f040cbed33e4b29da33fc36e29bc24b62
+
+Expected patched output: track03.bin
+SHA-1 1bc0fe1da334be249a9e8c96d346d218dc9e913d

@@ -30,7 +30,8 @@ portrait-name graphics may retain Japanese presentation text.
 - Standardizes names and places such as Aghathia, Anemea Glender, Stum
   "Burnin'", Kantalra, Sa'am, Yerum, Shanna Woods, Azul Highlands,
   HeatLord's Hill, Juno, Xian, Diadolla, Vasyar, and Saro.
-- Includes a newly rebuilt and independently verified BPS patch.
+- Includes newly rebuilt and independently verified BPS and JSON patch
+  formats.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full release history.
 
@@ -42,7 +43,10 @@ source SHA-1 is:
 
 `5608009f040cbed33e4b29da33fc36e29bc24b62`
 
-See [PATCHING.md](PATCHING.md) for complete application instructions.
+For a Windows helper that does not require a BPS program, download the JSON
+patch and run `Apply_JSON_Patch.bat`; it verifies both the source and output
+automatically. See [PATCHING.md](PATCHING.md) for the JSON-helper and standard
+BPS methods.
 
 ## Verification
 
@@ -51,9 +55,10 @@ See [PATCHING.md](PATCHING.md) for complete application instructions.
 | Clean `track03.bin` | SHA-1 `5608009f040cbed33e4b29da33fc36e29bc24b62` |
 | Patched v1.0.2 `track03.bin` | SHA-1 `1bc0fe1da334be249a9e8c96d346d218dc9e913d` |
 | v1.0.2 BPS | SHA-256 `50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8` |
+| v1.0.2 JSON | SHA-256 `5babf40c963de3723aaf68281ec09650a30cd1d6bb56624c1133b2e94b7fb6ff` |
 
-The BPS was applied independently to the clean source and produced the
-documented patched SHA-1.
+Both patch formats were applied independently to the clean source and
+produced the documented patched SHA-1.
 
 See [RELEASE_NOTES.md](RELEASE_NOTES.md) for technical details and
 [ROMHACKING_SUBMISSION.md](ROMHACKING_SUBMISSION.md) for the current listing

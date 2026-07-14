@@ -1,0 +1,41 @@
+TRICOLORE CRISE ENGLISH PATCH v1.0.2
+HOW TO PATCH WITHOUT A BPS PROGRAM
+
+YOU NEED
+
+1. A clean, legally obtained Tricolore Crise GDI dump.
+2. The file named track03.bin from that dump.
+3. These three downloaded release files in the SAME folder:
+   - Apply_JSON_Patch.bat
+   - apply_json_patch.py
+   - tricolore_crise_english_patch_v1.0.2.json
+
+4. Python for Windows. If double-clicking the BAT file reports that "py" is
+   not recognized, install Python from https://www.python.org/downloads/ and
+   select "Add Python to PATH" during installation.
+
+PATCHING STEPS
+
+1. Make a COPY of your whole GDI folder. Keep the original untouched.
+2. Put the three release files above into any folder together.
+3. Double-click Apply_JSON_Patch.bat.
+4. Drag your CLEAN track03.bin into the black window and press Enter.
+5. Wait for the message saying Success.
+6. The helper creates track03_english_v1.0.2.bin in the helper's folder.
+7. Copy that file into your COPY of the GDI folder and rename it to
+   track03.bin, replacing the copy there.
+8. Open the .gdi file from the copied folder in Flycast or compatible hardware.
+
+IMPORTANT
+
+- The helper checks that your track03.bin is the correct clean version before
+  it changes anything.
+- Expected clean source SHA-1:
+  5608009f040cbed33e4b29da33fc36e29bc24b62
+- Expected patched output SHA-1:
+  1bc0fe1da334be249a9e8c96d346d218dc9e913d
+- Do not patch an already patched track03.bin.
+- Do not share game files. Share only this patch.
+
+If you already use Floating IPS (Flips) or another BPS patcher, you can instead
+apply tricolore_crise_english_patch_v1.0.2.bps directly to clean track03.bin.

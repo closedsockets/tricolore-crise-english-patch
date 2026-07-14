@@ -23,8 +23,8 @@
 ### Verified
 
 - The build validator passes with 17,151 safe replacements.
-- An independent BPS application produces patched `track03.bin` SHA-1
-  `1bc0fe1da334be249a9e8c96d346d218dc9e913d`.
+- Independent BPS and JSON applications both produce patched `track03.bin`
+  SHA-1 `1bc0fe1da334be249a9e8c96d346d218dc9e913d`.
 - BPS SHA-256:
   `50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8`.
 

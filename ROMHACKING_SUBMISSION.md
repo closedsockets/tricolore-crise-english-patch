@@ -33,7 +33,7 @@ characters and places throughout the game.
 
 The build validates fixed-width text limits, format tokens, line breaks,
 source hashes, image allocations, and patch overlap before producing the BPS
-file. It contains no game image and requires a clean `track03.bin`
+and JSON files. It contains no game image and requires a clean `track03.bin`
 with SHA-1 `5608009f040cbed33e4b29da33fc36e29bc24b62`.
 
 This is a functional completion release. Some replacement artwork prioritizes
@@ -47,7 +47,7 @@ tables.
 - Complete English event/dialogue translation.
 - English system and battle UI.
 - English Options, status, magic/skill, title-menu, and system-message art.
-- Source-verified BPS patch with 17,151 validated replacements.
+- Source-verified BPS and JSON patches with 17,151 validated replacements.
 
 ## Legal
 

@@ -3,6 +3,9 @@ Tricolore Crise English Patch v1.0.2
 tricolore_crise_english_patch_v1.0.2.bps
 SHA-256 50194b4cac099836d60decbf1074b0d8284f4f1a20f73a9904942a9b89354ed8
 
+tricolore_crise_english_patch_v1.0.2.json
+SHA-256 5babf40c963de3723aaf68281ec09650a30cd1d6bb56624c1133b2e94b7fb6ff
+
 Required clean source: track03.bin
 SHA-1 5608009f040cbed33e4b29da33fc36e29bc24b62
 
